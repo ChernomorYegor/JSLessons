@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*** CSS-RESET & GENERAL STYLES ***/
+
+html {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "Helvetica Neue", "Helvetica CY", sans-serif;
+	font-size: 14px;
+	color: #000;
+	background: transparent;
+	border: 0;
+	box-sizing: inherit;
+	outline: 0;
+}
+
+*:before, *:after {
+	box-sizing: inherit;
+}
+
+button{
+	cursor: pointer;
+}
+
+p {
+	padding: 10px;
+}
+
+/* Body */
+
+#show_dog {
+	margin-left: 10px;
+	padding: 5px 10px;
+	color: #fff;
+	background: #999;
+	-webkit-box-shadow: 0 1px 2px #999;
+	box-shadow: 0 1px 2px #999;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+#show_dog:hover {
+	color: #212121;
+}
+
+.dogs_images {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1520px;
+	padding: 10px;
+}
+
+.dogs_images img {
+	display: block;
+	width: 300px;
+	height: 300px;
+}

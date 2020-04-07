@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*** CSS-RESET & GENERAL STYLES ***/
+
+html {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", "Times CY", serif;
+	font-size: 24px;
+	color: #000;
+	background: transparent;
+	border: 0;
+	box-sizing: inherit;
+	outline: 0;
+}
+
+*:before, *:after {
+	box-sizing: inherit;
+}
+
+h2 {
+	padding: 25px 0 15px 0;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+label, button{
+	cursor: pointer;
+}
+
+/* Container */
+
+#container {
+	margin: 25px;
+	padding: 30px 90px;
+	background: #f2ebf3;
+	border: 1px solid #7c00ca;
+	border-radius: 4px;
+}
+
+/* Answers-status */
+
+#answers-status ul {
+	display: flex;
+	justify-content: center;
+}
+
+#answers-status li {
+	width: 18px;
+	height: 18px;
+	margin: 0 22px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #7c00ca;
+	cursor: pointer;
+}
+
+#answers-status li.active {
+	background: #7c00ca;
+	cursor: default;
+}
+
+/* Questions */
+
+#questions {
+	padding-top: 25px;
+}
+
+#questions p {
+	padding-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#questions div {
+	width: 50%;
+	margin: 0 auto 25px auto;
+}
+
+#questions input {
+	width: 26px;
+	height: 26px;
+	margin-right: 6px;
+	vertical-align: top;
+}
+
+/* Navigation */
+
+#navigation {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 100px;
+}
+
+#navigation .btn {
+	display: inline-block;
+	padding: 20px;
+	font-family: Arial, "Helvetica Neue", "Helvetica CY", sans-serif;
+	color: #fff;
+	background: #7c00ca;
+	border-radius: 25px;
+	transition: color 0.2s;
+}
+
+#navigation .submit.btn {
+	color: #000;
+	background: #adff2f;
+}
+
+#navigation .btn:hover {
+	color: #f2ebf3;
+}
+
+#navigation .submit.btn:hover {
+	color: #555;
+}
+
+#navigation .btn:disabled {
+	background: #cf93fa;
+}
+
+#navigation .btn:disabled:hover {
+	color: #fff;
+	cursor: default;
+}

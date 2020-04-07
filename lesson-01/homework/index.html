@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>Rates calculator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<h1>Rates calculator</h1>
+	<form id="form">
+		<div>
+			<select id="source_rate">
+				<option value="0" selected>BYN</option>
+				<option value="1" disabled>USD</option>
+				<option value="2">EUR</option>
+				<option value="3">RUB</option>
+			</select>
+			<label for="source_rate">Source rate</label>
+		</div>
+		<div>
+			<select id="dest_rate">
+				<option value="0" disabled>BYN</option>
+				<option value="1" selected>USD</option>
+				<option value="2">EUR</option>
+				<option value="3">RUB</option>
+			</select>
+			<label for="dest_rate">Destination rate</label>
+		</div>
+		<div>
+			<input id="sum_input" type="number" name="" />
+			<span id="result"></span>
+		</div>
+	</form>
+
+	<script src="index.js"></script>
+
+</body>
+</html>
