@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Shimpanze",
+    "description": "Origin - Morokko",
+    "image": "http://images.panda.org/assets/images/pages/welcome/orangutan_1600x1000_279157.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Lion",
+    "description": "African Lion",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQU-3SeJTldwuh5c8SQYexx9xIo14OIKDZshbSazT5pHFqZrRq"
+  },
+  {
+    "id": 3,
+    "title": "Makaka",
+    "description": "From South Africa",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReISA1eO1ss2BiACf8wZPWtm28FQiOZg416HKoDN2MCEvuNkEt"
+  }
+]

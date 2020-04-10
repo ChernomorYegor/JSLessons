@@ -1,0 +1,10 @@
+{{#>layout}}
+    {{#*inline "content"}}
+        <h1>Goods</h1>
+        <div class="row">
+            {{#each items}}
+                {{>good}}
+            {{/each}}
+        </div>
+    {{/inline}}
+{{/layout}}

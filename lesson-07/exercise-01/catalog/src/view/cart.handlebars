@@ -1,0 +1,13 @@
+{{#>layout}}
+    {{#*inline "content"}}
+        <h1>Items in Cart</h1>
+        <div class="row">
+            {{#each items}}
+                {{>good}}
+            {{/each}}
+            {{#if isEmpty}}
+                <h5>Your cart is empty!</h5>
+            {{/if}}
+        </div>
+    {{/inline}}
+{{/layout}}
